@@ -1,0 +1,26 @@
+.Overview {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  .Overview-logo {
+    box-shadow: 0px 120px 200px 50px var(--ifm-color-primary);
+    border-radius: 120px;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .Overview {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .button {
+    margin: 0px 10px;
+  }
+}
