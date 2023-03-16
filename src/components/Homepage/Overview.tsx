@@ -16,7 +16,7 @@ function Overview(): JSX.Element {
   return (
     <div className={'Overview'}>
       <div className="container padding-vert--xl">
-        <img className="Overview-logo" src="img/logo.png" alt="Daniel Brandl Logo" width="150" />
+        <img className="Overview-logo" src="img/logo.png" alt="ciphr9 Logo" width="200" />
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={'buttons'}>
