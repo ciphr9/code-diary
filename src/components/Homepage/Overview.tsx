@@ -2,6 +2,7 @@ import React from 'react';
 import './Overview.scss';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Link from '@docusaurus/Link';
+import Gravatar from 'react-gravatar';
 
 function Overview(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -16,9 +17,11 @@ function Overview(): JSX.Element {
   return (
     <div className={'Overview'}>
       <div className="container padding-vert--xl">
-        <img className="Overview-logo" src="img/logo.png" alt="ciphr9 Logo" width="200" />
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className="Overview-userSection">
+          <Gravatar email="dtb.brandl@live.de" className="Overview-userSection-logo" />
+          <p className="hero__subtitle">{siteConfig.tagline}</p>
+        </div>
         <div className={'buttons'}>
           <Link className="button button--secondary button--lg" to={getTodaysJournalPath()}>
             📅 Today

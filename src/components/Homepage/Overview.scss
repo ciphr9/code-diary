@@ -4,9 +4,11 @@
   position: relative;
   overflow: hidden;
 
-  .Overview-logo {
-    box-shadow: 0px 60px 350px 150px var(--ifm-color-primary);
-    border-radius: 120px;
+  .Overview-userSection {
+    .Overview-userSection-logo {
+      box-shadow: 0px 60px 350px 150px var(--ifm-color-primary);
+      border-radius: 120px;
+    }
   }
 }
 
