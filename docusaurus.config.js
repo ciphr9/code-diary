@@ -49,15 +49,11 @@ const config = {
     ({
       navbar: {
         title: 'Journal',
-        logo: {
-          alt: 'ciphr9 Logo',
-          src: 'img/logo.png',
-        },
         items: [
           {
-            to: '/docs/category/2023',
+            to: `/docs/category/${new Date().getFullYear()}`,
             position: 'left',
-            label: '2023',
+            label: `${new Date().getFullYear()}`,
           }
         ],
       },
