@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Journal',
-  tagline: 'ciphr9',
+  tagline: '@ciphr9',
   url: 'https://github.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -62,7 +62,6 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
         copyright: `Copyright © ${new Date().getFullYear()} ciphr9, all rights reserved. Built with Docusaurus.`,
       },
       prism: {

@@ -4,17 +4,34 @@
   position: relative;
   overflow: hidden;
   flex: 1;
-  background: linear-gradient(45deg, var(--ifm-color-primary) 25%, var(--ifm-color-primary-dark) 50%, var(--ifm-color-primary-darker) 75%, var(--ifm-color-primary-darkest) 100%);
   display: flex;
   align-items: center;
+  background: linear-gradient(
+    45deg,
+    var(--ifm-color-primary-lightest) 0%,
+    var(--ifm-color-primary-lighter) 25%,
+    var(--ifm-color-primary-light) 40%,
+    var(--ifm-color-primary-dark) 60%,
+    var(--ifm-color-primary-darker) 75%,
+    var(--ifm-color-primary-darkest) 100%
+  );
+  // background: linear-gradient(
+  //   45deg,
+  //   #f00 0%,
+  //   #ff0 25%,
+  //   #f0f 40%,
+  //   #0f0 60%,
+  //   #0ff 75%,
+  //   #00f 100%
+  // );
+  background-size: 150% 100%;
+  animation: gradient 25s ease infinite;
 
-  .Overview-userSection {
-    .Overview-userSection-logo {
-      // box-shadow: 0px 60px 350px 150px var(--ifm-color-primary);
-      border-radius: 120px;
-      height: 200px;
-      width: 200px;
-    }
+  .Overview-userSection-logo {
+    border-radius: 120px;
+    height: 150px;
+    width: 150px;
+    margin: var(--ifm-heading-margin-top) 0 var(--ifm-heading-margin-bottom) 0;
   }
 }
 
@@ -31,4 +48,22 @@
   .button {
     margin: 0px 10px;
   }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+  25% {
+    background-position: 25% 50%;
+  }
+	50% {
+		background-position: 100% 50%;
+	}
+  75% {
+    background-position: 75% 50%;
+  }
+	100% {
+		background-position: 0% 50%;
+	}
 }

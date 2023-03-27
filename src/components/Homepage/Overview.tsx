@@ -17,12 +17,10 @@ function Overview(): JSX.Element {
     <div className={'Overview'}>
       <div className="container padding-vert--xl">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <div className="Overview-userSection">
-          <img className="Overview-userSection-logo" src="img/logo.png" alt="ciphr9 logo" />
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-        </div>
+        <h2 className="hero__subtitle">{siteConfig.tagline}</h2>
+        <img className="Overview-userSection-logo" src="img/logo.png" alt="ciphr9 logo" />
         <div className={'buttons'}>
-          <Link className="button button--secondary button--lg" to={getTodaysJournalPath()}>
+          <Link className="button button--lg button--outline button--secondary" to={getTodaysJournalPath()}>
             📅 Today
           </Link>
         </div>
