@@ -1,0 +1,13 @@
+.Pet {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000000;
+  z-index: 5000;
+  padding: 10px;
+}
