@@ -49,6 +49,10 @@ const config = {
     ({
       navbar: {
         title: 'Journal',
+        logo: {
+          alt: 'ciphr9 Logo',
+          src: 'img/logo.png',
+        },
         items: [
           {
             to: `/docs/category/${new Date().getFullYear()}`,

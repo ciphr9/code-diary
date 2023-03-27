@@ -2,7 +2,6 @@ import React from 'react';
 import './Overview.scss';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Link from '@docusaurus/Link';
-import Gravatar from 'react-gravatar';
 
 function Overview(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -19,7 +18,7 @@ function Overview(): JSX.Element {
       <div className="container padding-vert--xl">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <div className="Overview-userSection">
-          <Gravatar email="dtb.brandl@live.de" className="Overview-userSection-logo" />
+          <img className="Overview-userSection-logo" src="img/logo.png" alt="ciphr9 logo" />
           <p className="hero__subtitle">{siteConfig.tagline}</p>
         </div>
         <div className={'buttons'}>
