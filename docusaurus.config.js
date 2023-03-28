@@ -7,17 +7,20 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Journal",
-  tagline: "@ciphr9",
+  tagline: "@ciphr9 - A journal of my thoughts and ideas.",
   url: "https://github.com/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
+  customFields: {
+    username: "ciphr9",
+  },
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "ciphr9", // Usually your GitHub org/user name.
-  projectName: "journal", // Usually your repo name.
+  projectName: "Journal", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -50,7 +53,7 @@ const config = {
       navbar: {
         title: "Journal",
         logo: {
-          alt: "ciphr9 Logo",
+          alt: `Logo`,
           src: "img/logo.png",
         },
         items: [
