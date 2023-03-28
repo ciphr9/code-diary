@@ -18,11 +18,7 @@ function Overview(): JSX.Element {
       <div className="container padding-vert--xl">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <h2 className="hero__subtitle">{siteConfig.tagline}</h2>
-        <img
-          className="Overview-userSection-logo"
-          src="img/logo.png"
-          alt={`${siteConfig.username} logo`}
-        />
+        <img className="Overview-userSection-logo" src="img/logo.png" alt={`logo`} />
         <div className={"buttons"}>
           <Link
             className="button button--lg button--outline button--secondary"

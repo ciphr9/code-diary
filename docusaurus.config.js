@@ -13,9 +13,6 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  customFields: {
-    username: "ciphr9",
-  },
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
