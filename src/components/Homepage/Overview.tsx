@@ -6,7 +6,7 @@ import Link from "@docusaurus/Link";
 function Overview(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
 
-  const getTodaysJournalPath = (): string => {
+  const getTodaysCodeDiaryPath = (): string => {
     const year = new Date().getFullYear();
     const month = String(new Date().getMonth() + 1).padStart(2, "0");
     const day = String(new Date().getDate()).padStart(2, "0");
@@ -22,7 +22,7 @@ function Overview(): JSX.Element {
         <div className={"buttons"}>
           <Link
             className="button button--lg button--outline button--secondary"
-            to={getTodaysJournalPath()}
+            to={getTodaysCodeDiaryPath()}
           >
             📅 Today
           </Link>

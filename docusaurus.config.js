@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Journal",
-  tagline: "@ciphr9 - A journal of my thoughts and ideas.",
+  title: "Code Diary",
+  tagline: "Daniel Brandl",
   url: "https://github.com/",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "ciphr9", // Usually your GitHub org/user name.
-  projectName: "Journal", // Usually your repo name.
+  organizationName: "Nexus AG", // Usually your GitHub org/user name.
+  projectName: "Code Diary", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -48,7 +48,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Journal",
+        title: "Code Diary",
         logo: {
           alt: `Logo`,
           src: "img/logo.png",
@@ -62,7 +62,7 @@ const config = {
         ],
       },
       footer: {
-        copyright: `Copyright © ${new Date().getFullYear()} ciphr9, all rights reserved. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Daniel Brandl, all rights reserved. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
