@@ -26,21 +26,6 @@
   }
 }
 
-@media screen and (max-width: 996px) {
-  .Overview {
-    padding: 2rem;
-  }
-}
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  .button {
-    margin: 0px 10px;
-  }
-}
-
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
