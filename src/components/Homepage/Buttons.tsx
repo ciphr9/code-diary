@@ -1,5 +1,4 @@
 import React from "react";
-import "./Buttons.scss";
 import Link from "@docusaurus/Link";
 
 function Buttons(): JSX.Element {
