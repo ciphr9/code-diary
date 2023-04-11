@@ -15,15 +15,6 @@
     var(--ifm-color-primary-darker) 75%,
     var(--ifm-color-primary-darkest) 100%
   );
-  // background: linear-gradient(
-  //   45deg,
-  //   #f00 0%,
-  //   #ff0 25%,
-  //   #f0f 40%,
-  //   #0f0 60%,
-  //   #0ff 75%,
-  //   #00f 100%
-  // );
   background-size: 150% 100%;
   animation: gradient 25s ease infinite;
 
