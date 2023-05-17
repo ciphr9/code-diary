@@ -10,10 +10,7 @@ function TodayButton(): JSX.Element {
   };
 
   return (
-    <Link
-      className="TodayButton button button--lg button--outline button--secondary"
-      to={getTodaysCodeDiaryPath()}
-    >
+    <Link className="TodayButton button button--lg button--secondary" to={getTodaysCodeDiaryPath()}>
       📅 Today
     </Link>
   );
